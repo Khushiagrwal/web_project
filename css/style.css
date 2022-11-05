@@ -1,0 +1,110 @@
+nav 
+{
+    position: sticky;
+    top:0px;
+    box-shadow: 2px 2px 2px 2px  rgb(170, 47, 67);
+    border-radius: 6px; 
+    width:auto;
+    height:60px;
+    padding-bottom: 12px;
+    background-color:black;
+}
+nav #camera{
+    margin-left:30px;
+    margin-top: 13px;
+    width:40px;
+    height: 40px;
+    float: left;
+    margin-right: 50px;
+}
+ul li{
+    margin-left: 20px;
+    display: inline;
+    color: pink;
+}
+ul li a:hover{
+    color:white;
+
+}
+nav button{
+    margin-left:90px;
+    margin-right:300px;
+    margin-top: 10px;
+    border-radius:10px;
+    height:45px;
+    border :1px solid rgba(128, 128, 128, 0.205);
+}
+nav a{
+    text-decoration: none;
+    font-size:xx-large;
+    font-family:'Times New Roman', Times, serif;
+}
+nav #book{
+    width:180px;
+    margin-right: 0px;
+    color:black;
+    margin-left: 50px;
+    font-weight: 500;
+    font-family:'Times New Roman', Times, serif;
+    font-size:x-large;
+    background-color:white;
+    
+}
+footer{
+    background-image: url("../images/travel.jpg");
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px  grey;
+    padding-top: 30px;
+    font-size: x-large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-size: auto 250px;
+}
+.main
+{
+    background-color: rgb(212, 162, 171);
+    width: auto;
+    height:950px;
+    padding: 50px;
+    margin-bottom: 30px;
+}
+.main .box2
+{
+    background-color:white;
+    width: auto;
+    height:300px;
+    padding:50px;
+}
+.main .box1
+{
+    background-color:white;
+    width: auto;
+    padding: 50px;;
+    height: 300px;
+}
+.main .box1 img 
+{
+    width:315px;
+    margin-right:50px ;
+    height:250px ;
+    border-radius: 8px;;
+
+}
+.main .box2 img 
+{
+    border:8px;
+    width:315px;
+    margin-right:50px ;
+    height:250px ;
+    border-radius:8px solid rgb(80, 9, 80)
+    ;
+}
+.main .box2 img:hover {
+    transform: scaleX(-1);
+    opacity:0.3px;
+    border-radius: 10px;;
+  }
+  .main .box1 img:hover {
+    transform: scaleX(-1);
+    opacity:0.3px;
+    border-radius: 10px;;
+  }
